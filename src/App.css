@@ -1,3 +1,13 @@
+/* App.css */
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* You can remove or adjust the styles below if they're not needed */
 .App {
   text-align: center;
 }
@@ -28,4 +38,14 @@
 
 .small {
   font-size: 0.75rem;
+}
+.card-actions {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+#quote-box {
+  margin: auto; 
+  max-width: 345px;
+  width: 100%;
 }
